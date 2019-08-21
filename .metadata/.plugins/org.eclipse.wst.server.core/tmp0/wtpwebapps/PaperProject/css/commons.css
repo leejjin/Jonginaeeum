@@ -1,0 +1,119 @@
+@import("fonts.css");
+
+* {
+	font-family: NanumSquare, "noto Sans", sans-serif;
+}
+
+.navbar-nav {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+.navbar-collapse {
+	min-height: 70px;
+	background: #FFF;
+	border-bottom: 1px solid #976a4d;
+}
+
+.navbar-nav>li>a {
+	padding: 45px 0;
+	margin: 0;
+	display: block;
+	vertical-align: middle;
+	text-align: center;
+	color: #261d16;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	color: #ee7400;
+	font-weight: 600;
+	background: #f9f8f6;
+}
+
+.navbar-nav>li {
+	width: 14.285%;
+	text-align: center;
+}
+
+.navbar-nav .logo-top {
+	height: auto;
+	text-align: center;
+	display: block;
+	height: 110px;
+	padding: 0 !important;
+}
+
+.navbar-nav>li>a.logo {
+	padding: 0;
+	height: 110px;
+}
+
+.navbar-nav>li>a.logo:focus, .navbar-nav>li>a.logo:hover {
+	background: #fff;
+}
+
+.navbar-nav .logo-top img {
+	width: auto;
+	height: 100%;
+}
+
+.theme-dropdown .dropdown-menu {
+	position: static;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.slowpub-showcase>p>.btn {
+	margin: 5px 0;
+}
+
+.slowpub-showcase .navbar .container {
+	width: auto;
+}
+
+.nav>li.other-menu a {
+	color: #f1f2f1;
+	background: #82705F;
+}
+
+.nav>li.other-menu>a:focus, .nav>li.other-menu>a:hover {
+	color: #f1f2f1;
+	font-weight: 600;
+	background: #67584B;
+}
+
+#footer {
+	position: relative;
+	width: 100%;
+	padding: 10px 0;
+	z-index: 1;
+	background-color: #f2f2f2;
+	text-align: center;
+	border-top: 1px solid #ddd;
+}
+
+/*페이지 상단*/
+.page_top_title {
+	background: url('../img/common/title_bg.png') repeat;
+	margin-top: 150px;
+	position: relative;
+	border: 1px solid #B2DBFC;
+	border-width: 1px 0;
+}
+
+.page_top_title {
+	text-align: center;
+	padding: 30px 0;
+}
+
+.container {
+	margin: 50px auto;
+	min-height: 600px;
+}
+
+.page_wrapper {
+	text-align: center;
+}

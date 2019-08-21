@@ -1,0 +1,40 @@
+/*review main*/
+.write_btn {text-align: right;}
+.review>a {height: 100%; color: inherit;}
+.review>a:focus,.review>a:hover  {text-decoration: none}
+.review img {height: 307px !important;}
+.review_expl {list-style: none; padding: 10px; padding-bottom: 0}
+.review_expl .title { font-size: 18px; font-weight: bold; padding: 10px 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; letter-spacing: -1px }
+.review_expl .title:focus,.review_expl .title:hover  {text-decoration: underline;}
+.review_expl  .comment_num {color: red; font-size: 18px; }
+
+.no_search {text-align: center;  padding: 200px 0; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd;}
+.no_search h1{color :red;}
+
+.search_wrap { text-align: center; margin: 50px 0; display: block;}
+.search_wrap #searchText {width: 350px; display: inline;}
+/*review detail*/
+.review_detail.table>tbody>tr>th,.review_detail.table>tbody>tr>td{padding:15px 8px;}
+.review_detail.table>tbody>tr>td.contents {padding: 30px;}
+.review_detail .contents img {max-width: 900px;}
+.comments .comment {border-bottom: 1px solid #ddd; margin: 10px 0; }
+.comments .content {margin: 10px 0;}
+.comments_wrap ul.comments {list-style: none; padding: 0;}
+.review_detail .title{font-size: 17px;}
+
+.comments .comment:last-child {border-bottom: 0; }
+.c_write_wrap.table>tbody>tr>th {vertical-align:middle; text-align: center;letter-spacing: 3px;font-size: 18px;}
+textarea {resize: none;}
+.c_write_wrap input.btn {padding: 14px;}
+.comments_wrap .panel-heading {font-weight: bold;font-size: 16px;}
+.comments_wrap .panel-heading span {color: red;font-size: 18px;}
+.btn_area {text-align: right; margin-bottom: 6px; position: relative;}
+.btn_area .ta-l {float: left;}
+.noComment {text-align: center; color: red;}
+
+/*review write*/
+
+.review_write_wrap .table {border-bottom-width: 1px;}
+.review_write_wrap th {text-align: center; font-size: 18px;}
+.btns {text-align: center;}
+.btns a{margin-left: 25px;}

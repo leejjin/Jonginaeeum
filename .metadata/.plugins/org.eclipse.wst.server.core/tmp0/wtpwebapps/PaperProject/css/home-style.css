@@ -1,0 +1,365 @@
+/* -------------------- 紐⑤뱺 �럹�씠吏� 怨좎젙 �떆�옉---------- ---------- */
+@import
+	url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
+
+* {
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+}
+
+header, nav {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.top-menu {
+	text-align: right;
+	background-color: #E8E4DB;
+	padding: 0.4% 0%;
+}
+
+.top-menu ul {
+	margin: 0;
+}
+
+.top-menu li {
+	font-size: 0.8em;
+	display: inline;
+	margin-right: 2%;
+}
+
+.logo {
+	margin: 2% 0%;
+}
+
+/* -------------------- �꽕鍮꾧쾶�씠�뀡諛� -------------------- */
+.main-menu ul {
+	position: absolute;
+}
+
+.sub-menu li {
+	opacity: 0.9;
+}
+
+.main-menu li a, .show-local {
+	display: block;
+	background-color: #000000;
+	padding: 3% 0%;
+	border-bottom: 1px solid white;
+}
+
+.main-menu>li>a {
+	background-color: #FFFFFF;
+	border-right: 1px solid lightgray;
+}
+
+.main-menu ul {
+	display: none;
+}
+
+.main-menu li a:hover+[class*="sub-"], [class*="sub-"]:hover {
+	display: block;
+}
+
+.sub-sub-menu1 {
+	left: 100%;
+	top: 0;
+}
+
+.sub-sub-menu2 {
+	left: 100%;
+	top: 50%;
+}
+
+.main-menu>li:hover>a {
+	background-color: #EED2AA;
+	font-weight: bold;
+}
+
+.sub-menu li a {
+	color: white;
+}
+
+.main-menu>li:hover .sub-menu>li:hover>a, .main-menu>li:hover .sub-menu>li:hover>ul li:hover a
+	{
+	color: black;
+	background-color: #DDDDDD;
+	font-weight: bold;
+}
+
+/* -------------------- 諛곕꼫 -------------------- */
+.banner img, .main_story img {
+	clear: both;
+	width: 100%;
+	height: 20%;
+}
+
+.search {
+	width: 100%;
+	text-align: center;
+	margin-top: 1%;
+}
+
+#search-bar {
+	width: 50%;
+	text-align: center;
+	padding: 0.75% 0%;
+	border: 1px solid lightgrey;
+	border-radius: 50px;
+}
+
+#search-btn {
+	width: 2.5%;
+	margin: 0% 0.25%;
+	vertical-align: middle;
+	min-width: 20px;
+}
+
+/* -------------------- 紐⑤뱺 �럹�씠吏� 怨좎젙 �걹---------- ---------- */
+/* -------------------- 硫붿씤�럹�씠吏� -------------------- */
+.main-goods, .main-bookstore, .main-moim {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 8%;
+}
+
+.main-bookstore img, .main-goods img, .main-moim img {
+	width: 20%;
+	height: 20%;
+	padding: 0.5%;
+}
+
+footer {
+	clear: both;
+	color: white;
+	width: 100%;
+	height: 30%;
+	padding: 5%;
+	margin-top: 10%;
+	background-color: gray;
+}
+
+footer img {
+	width: 2%;
+	min-width: 30px;
+	height: 2%;
+}
+
+/* -------------------- 寃��깋 寃곌낵 �럹�씠吏� -------------------- */
+.search-result {
+	margin: 5% 15% 15% 15%;
+}
+
+.search-result a {
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail img {
+	width: 30%;
+}
+
+/* -------------------- 지역별/테마별 서점 목록 페이지 -------------------- */
+.bookstore-title {
+	margin: 5% 15% 0% 15%;
+}
+
+.bookstore-list-box {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2.5%;
+}
+
+.bookstore-list {
+	display: inline;
+	margin: 0;
+	text-align: center;
+}
+
+.bookstore-list img {
+	width: 70%;
+}
+
+/* -------------------- 갤러리 페이지 -------------------- */
+.mar {
+	margin: 5% 15% 0% 15%;
+}
+
+.mar img {
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+}
+
+.gal {
+	align-items: center;
+	padding-left:15%;
+}
+
+.mar h2 {
+	text-align: left;
+	position: relative;
+	margin-left: 80px;
+}
+
+.mar h3 {
+	display: inline-block;
+	align-items: right;
+	position: relative;
+}
+
+.rig {
+	text-align: right;
+	margin-right: 80px;
+	align-items: center;
+}
+
+.mar p {
+	margin: 30px;
+	float: left;
+}
+
+.gallery-pageNum {
+	padding-left:33%;
+}
+/* -------------------- 이벤트 페이지 -------------------- */
+
+.event_detail h3 {
+	float: left;
+	margin: 15px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.event_detail h2 {
+	text-align: center;
+	margin: 10px;
+}
+
+.event_detail h4 {
+	text-align: center;
+}
+
+.event_detail .first {
+	margin-top: 30px;
+	width: 100%;
+	height: 20%;
+}
+
+.event_detail #fimg {
+	width: 100%;
+	height: 10%;
+	display: inline-block;
+}
+
+.event_detail .second {
+	margin-top: 50px;
+	margin-bottom: 200px;
+	width: 100%;
+	height: 50%;
+}
+
+.event_detail .third {
+	margin-top: 50px;
+	width: 100%;
+	height: 50%;
+}
+
+.event_detail #timg {
+	margin-left: 15%;
+}
+
+.event_detail #text {
+	display: inline-block;
+	margin-left: 200px;
+}
+
+.event_detail #goods {
+	display: inline-block;
+	align-items: center;
+	margin-left: 15%;
+}
+/* -------------------- 諛섏쓳�삎 �쎒�럹�씠吏� -------------------- */
+* {
+	box-sizing: border-box;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+[class*="col-"] {
+	float: left;
+}
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+	/* For tablets: */
+	.col-s-1 {
+		width: 8.33%;
+	}
+	.col-s-2 {
+		width: 16.66%;
+	}
+	.col-s-3 {
+		width: 25%;
+	}
+	.col-s-4 {
+		width: 33.33%;
+	}
+	.col-s-5 {
+		width: 41.66%;
+	}
+	.col-s-6 {
+		width: 50%;
+	}
+	.col-s-7 {
+		width: 58.33%;
+	}
+	.col-s-8 {
+		width: 66.66%;
+	}
+	.col-s-9 {
+		width: 75%;
+	}
+	.col-s-10 {
+		width: 83.33%;
+	}
+	.col-s-11 {
+		width: 91.66%;
+	}
+	.col-s-12 {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width : 600px) {
+	/*Make dropdown links appear inline*/
+	.main-menu ul {
+		position: static;
+		display: none;
+	}
+}
