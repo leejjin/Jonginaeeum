@@ -12,6 +12,8 @@
   - DB : Oracle
   - Server : Tomcat
 
+---
+
 - **기능**
   - 독립서점 검색
     - 지역별
@@ -20,7 +22,11 @@
   - 갤러리
   - 커뮤니티
   - 이벤트 : 독립서점에서 진행하는 행사 정보 제공
-  
+
+---
+
 - **개발** : IT 프로젝트 동아리 SSIDO 1조
+
+
 
 ![UI main](https://user-images.githubusercontent.com/43690969/63477552-90959d80-c4c0-11e9-8f5a-fb2aeadedf16.jpg)
