@@ -27,6 +27,8 @@
 
 - **개발** : IT 프로젝트 동아리 SSIDO 1조
 
+---
 
+- 메인 UI
 
 ![UI main](https://user-images.githubusercontent.com/43690969/63477552-90959d80-c4c0-11e9-8f5a-fb2aeadedf16.jpg)
