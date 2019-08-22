@@ -12,7 +12,12 @@
 JSP, Oracle Database, HTML, CSS 등을 이용하여 개발하였습니다.
 
 - 기능
-  - 독립서점 검색(지역별, 테마별)
+  - 독립서점 검색
+    - 지역별
+    - 테마별
   - 독립서점 상세정보 제공 (위치, SNS, 사진 등)
+  - 갤러리
+  - 커뮤니티
+  - 이벤트 : 독립서점에서 진행하는 행사 정보 제공
 
 ![UI main](https://user-images.githubusercontent.com/43690969/63477552-90959d80-c4c0-11e9-8f5a-fb2aeadedf16.jpg)
