@@ -7,11 +7,12 @@
 
 종이내음은 전국의 독립서점을 소개하고 그들의 시장을 활성화하고자 하는 취지로 만들어진 웹 페이지입니다.
 
-해당 프로젝트는 IT 프로젝트 동아리 SSIDO 1조의 작품으로, 
+- **개발툴**
+  - JSP, HTML, CSS
+  - DB : Oracle
+  - Server : Tomcat
 
-JSP, Oracle Database, HTML, CSS 등을 이용하여 개발하였습니다.
-
-- 기능
+- **기능**
   - 독립서점 검색
     - 지역별
     - 테마별
@@ -19,5 +20,7 @@ JSP, Oracle Database, HTML, CSS 등을 이용하여 개발하였습니다.
   - 갤러리
   - 커뮤니티
   - 이벤트 : 독립서점에서 진행하는 행사 정보 제공
+  
+- **개발** : IT 프로젝트 동아리 SSIDO 1조
 
 ![UI main](https://user-images.githubusercontent.com/43690969/63477552-90959d80-c4c0-11e9-8f5a-fb2aeadedf16.jpg)
