@@ -9,7 +9,7 @@
 ---
 
 - **개발툴**
-  - JSP, HTML, CSS
+  - JSP, HTML, CSS, JavaScript
   - DB : Oracle
   - Server : Tomcat
 
